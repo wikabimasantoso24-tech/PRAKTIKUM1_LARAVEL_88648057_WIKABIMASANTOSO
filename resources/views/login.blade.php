@@ -120,6 +120,7 @@
       </div>
 
       <form action="" method="POST">
+        @csrf
         <div class="form-group">
           <label>Alamat Email Pasien</label>
           <input

@@ -159,6 +159,7 @@
       <div class="navbar-user">
         <span>Pasien: <strong>Rina Safitri</strong> (rina@gmail.com)</span>
         <form action="logout" method="POST" style="display: inline;">
+            @csrf
           <button type="submit" class="btn-logout">Keluar</button>
         </form>
       </div>

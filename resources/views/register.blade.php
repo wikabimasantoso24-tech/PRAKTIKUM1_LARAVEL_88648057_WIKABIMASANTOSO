@@ -127,6 +127,7 @@
       </div>
 
       <form action="" method="POST">
+        @csrf
         <div class="form-group">
           <label>Nama Lengkap Pasien</label>
           <input
