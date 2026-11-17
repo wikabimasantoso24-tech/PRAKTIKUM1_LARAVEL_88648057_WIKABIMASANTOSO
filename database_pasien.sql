@@ -16,5 +16,6 @@ create Table 'tb_pasien'(
 
 INSERT INTO 'tb_pasien' ('id_pasien', 'nama_lengkap', 'email', 'no_telepon','alamat', 'password', 'status_pasien')
 VALUES
-(1,'Rina Saftri','rina@gmail.com','081234567891','Jl.Merdeka Sehat No. 10,Jakarta','','Aktif'),
-(2,'')
+(1, 'Rina Safitri', 'rina@gmail.com', '081234567891', 'Jl. Merdeka Sehat No. 10, Jakarta', '$2y$10$wQ9w2e3V2j5r3n8u8f8s1e4y8k9l0m1n2o3p4q5r6s7t8u9v0w1x2', 'Aktif'),
+(2, 'Dani Pratama', 'dani@gmail.com', '081298765432', 'Jl. Sehat Bersama No. 45, Bandung', '$2y$10$wQ9w2e3V2j5r3n8u8f8s1e4y8k9l0m1n2o3p4q5r6s7t8u9v0w1x2', 'Aktif'),
+(3, 'Eko Wahyudi', 'eko@gmail.com', '085711223344', 'Jl. Teratai No. 12, Surabaya', '$2y$10$wQ9w2e3V2j5r3n8u8f8s1e4y8k9l0m1n2o3p4q5r6s7t8u9v0w1x2', 'Nonaktif');
